@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.jodisbuildwizard"
+       name="Jodis Build Wizard"
+       version="1.0.0"
+       provider-name="jodisfields">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Build wizard for Fentastic/FenLight setup</summary>
+        <description lang="en_GB">Installs and configures custom Kodi build featuring Fentastic skin, FenLight video addon, and CocoScrapers. Includes debrid service configuration, backup/restore functionality, and cache management.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-only</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.jodisfields"
+       name="Jodisfields Repository"
+       version="1.0.0"
+       provider-name="jodisfields">
+    <requires>
+        <import addon="xbmc.addon" version="21.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Jodisfields Repository">
+        <dir minversion="21.0.0">
+            <info compressed="false">https://jodisfields.github.io/kodi-build/omega/zips/addons.xml</info>
+            <checksum>https://jodisfields.github.io/kodi-build/omega/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://jodisfields.github.io/kodi-build/omega/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Jodisfields custom Kodi repository</summary>
+        <description lang="en_GB">Contains build wizard for installing custom Kodi build with Fentastic skin, FenLight, and CocoScrapers preconfigured.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kodi source directories (for local testing)
+kodi-source/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Keep builds directory but ignore large build files during development
+# Uncomment if you want to commit builds:
+# builds/*.zip
+# builds/*.md5
